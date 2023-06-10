@@ -9,6 +9,7 @@ function Synthesis() {
 
   return (
     <div className="w-full max-w-lg px-4 py-8 mx-auto">
+        <h1 className='text-center py-5 text-2xl'>Text to voice</h1>
       <textarea
         className="w-full h-40 px-4 py-2 mb-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-200"
         value={value}

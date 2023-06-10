@@ -1,10 +1,12 @@
 import './App.css';
-import Example from './components/Example';
+import Recognition from './components/Recognition';
+import Synthesis from './components/Synthesis';
 
 function App() {
   return (
-    <div className="App">
-      <Example/>
+    <div className="flex flex-col items-center justify-center min-h-screen">
+      <Synthesis />
+      <Recognition />
     </div>
   );
 }
